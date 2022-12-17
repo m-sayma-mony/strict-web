@@ -1,0 +1,190 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px){
+
+/*nav bar part start*/
+.navbar-brand img{
+	margin-left: 10px;
+}
+.navbar-brand span{
+	font-size: 25px;
+}
+.navbar-nav .nav-item .nav-link{
+	background-color: #2d3950;
+	color: #15a4fa;
+	text-align: center;
+	font-size: 16px;
+	border-bottom: 1px solid #15a4fa;
+}
+.navbar-nav{
+	margin-top: 10px;
+}
+/*nav bar part end*/
+
+/*banner part start*/
+#banner{
+	padding: 70px 0 20px 0;
+}
+.banner-content h1{
+	font-size: 80px;
+}
+.banner-content span{
+	display: none;
+}
+.banner-content p{
+	font-size: 18px;
+	padding: 18px 0 40px 0;
+}
+.banner-content a{
+	font-size: 15px;
+	padding: 15px 28px;
+}
+.arrow-icon a{
+	margin-top: 70px;
+}
+/*banner part end*/
+
+/*design part start*/
+#design {
+    padding: 62px 0 62px 0;
+}
+.design-content h4 {
+    font-size: 30px;
+}
+.design-content p {
+    font-size: 16px;
+    line-height: 27px;
+}
+/*design part end*/
+
+/*card part start*/
+.card-content p {
+  padding-bottom: 20px;
+}
+/*card part end*/
+
+/*work part start*/
+.work-heading h4 {
+    font-size: 27px;
+}
+/*work part end*/
+
+/*form part start*/
+.input-feild {
+    width: 274px;
+}
+textarea {
+    width: 274px;
+}
+form ul label {
+    font-size: 13px;
+}
+form label {
+    padding-top: 12px;
+}
+form .btn {
+    font-size: 16px;
+    padding: 7px 30px;
+}
+/*form part end*/
+
+/*footer part start*/
+.footer-text p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.icon ul{
+	margin-left: 0px;
+}
+/*footer part end*/
+
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px){
+
+/*nav bar part start*/
+.navbar-brand img{
+	margin-left: 10px;
+}
+.navbar-brand span{
+	font-size: 30px;
+}
+.navbar-nav .nav-item .nav-link{
+	background-color: #2d3950;
+	color: #15a4fa;
+	text-align: center;
+	font-size: 20px;
+	border-bottom: 1px solid #15a4fa;
+}
+.navbar-nav{
+	margin-top: 10px;
+}
+/*nav bar part end*/
+
+/*banner part start*/
+.banner-content span{
+	display: none;
+}
+.banner-content p{
+	font-size: 20px;
+	padding: 18px 0 40px 0;
+}
+/*banner part end*/
+
+/*card part start*/
+.card-content p {
+  padding-bottom: 30px;
+}
+/*card part end*/
+
+/*footer part start*/
+.footer-text p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.icon ul{
+	margin-left: 0px;
+}
+/*footer part end*/
+	
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){
+
+/*banner part start*/
+.banner-content span{
+	left: 52px;
+}
+/*banner part end*/
+
+/*footer part start	*/
+.icon ul{
+	margin-left: 0px;
+}
+/*footer part end	*/
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+/*banner part start*/
+.banner-content span{
+	left: 155px;
+	top: 156px;
+}
+/*banner part end*/
+
+/*footer part start	*/
+.icon ul{
+	margin-left: 165px;
+}
+/*footer part end	*/
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){ ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
